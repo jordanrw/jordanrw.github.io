@@ -1,312 +1,431 @@
+//OCTOBER
 {
   "1": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location1": "",
+      "time1": "",
+      "location2": "",
+      "time2": ""
     },
     "periodicTable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location1": "",
+      "time1": "",
+      "location2": "",
+      "time2": ""
     }
   },
   "2": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location1": "",
+      "time1": "",
+      "location2": "",
+      "time2": ""
     },
     "periodicTable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location1": "",
+      "time1": "",
+      "location2": "",
+      "time2": ""
     }
   },
+
+
+
+
   "3": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "Hahn",
+      "time": "10:30am - 2:30pm"
     },
     "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "Litton Reaves",
+      "time": "10:30am - 12:30pm",
+      "location2": "Goodwin",
+      "time2": "1:00pm - 2:30pm"
     }
   },
   "4": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location1": "Litton Reaves",
+      "time1": "10:30am - 12:30pm",
+      "location2": "Goodwin",
+      "time2": "1:00pm - 2:30pm"
     },
-    "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+    "periodicTable": {
+      "location1": "Hahn",
+      "time1": "10:30am - 2:30pm",
+      "location2": "",
+      "time2": ""
     }
   },
   "5": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "Hahn",
+      "time": "10:30am - 2:30pm"
     },
     "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "Litton Reaves",
+      "time": "10:30am - 12:30pm",
+      "location2": "Goodwin",
+      "time2": "1:00pm - 2:30pm"
     }
   },
   "6": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location1": "Litton Reaves",
+      "time1": "10:30am - 12:30pm",
+      "location2": "Goodwin",
+      "time2": "1:00pm - 2:30pm"
     },
-    "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+    "periodicTable": {
+      "location1": "Hahn",
+      "time1": "10:30am - 2:30pm",
+      "location2": "",
+      "time2": ""
     }
   },
   "7": {
     "grillfield": {
       "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "time": "10:30am - 2:30pm"
     },
     "periodictable": {
       "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "time": "10:30am - 2:30pm"
     }
   },
   "8": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "NA",
+      "time": "NA"
     },
     "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "Science Festival",
+      "time": "10:30am - 2:30pm"
     }
   },
+
+
+
+
   "9": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location1": "",
+      "time1": "",
+      "location2": "",
+      "time2": ""
     },
-    "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+    "periodicTable": {
+      "location1": "",
+      "time1": "",
+      "location2": "",
+      "time2": ""
     }
   },
+
+
+
+
   "10": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location1": "Litton Reaves",
+      "time1": "10:30am - 12:30pm",
+      "location2": "Goodwin",
+      "time2": "1:00pm - 2:30pm"
     },
-    "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+    "periodicTable": {
+      "location1": "Hahn",
+      "time1": "10:30am - 2:30pm",
+      "location2": "",
+      "time2": ""
     }
   },
   "11": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "Hahn",
+      "time": "10:30am - 2:30pm"
     },
     "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "Litton Reaves",
+      "time": "10:30am - 12:30pm",
+      "location2": "Goodwin",
+      "time2": "1:00pm - 2:30pm"
     }
   },
   "12": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location1": "Litton Reaves",
+      "time1": "10:30am - 12:30pm",
+      "location2": "Goodwin",
+      "time2": "1:00pm - 2:30pm"
     },
-    "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+    "periodicTable": {
+      "location1": "Hahn",
+      "time1": "10:30am - 2:30pm",
+      "location2": "",
+      "time2": ""
     }
   },
   "13": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "Hahn",
+      "time": "10:30am - 2:30pm"
     },
     "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "Litton Reaves",
+      "time": "10:30am - 12:30pm",
+      "location2": "Goodwin",
+      "time2": "1:00pm - 2:30pm"
     }
   },
   "14": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "No Service - Fall Break",
+      "time": "NA"
     },
     "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "No Service - Fall Break",
+      "time": "NA"
     }
   },
   "15": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "No Service - Fall Break",
+      "time": "NA"
     },
     "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "No Service - Fall Break",
+      "time": "NA"
     }
   },
   "16": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "No Service - Fall Break",
+      "time": "NA"
     },
     "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "No Service - Fall Break",
+      "time": "NA"
     }
   },
+
+
+
+
   "17": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "Hahn",
+      "time": "10:30am - 2:30pm"
     },
     "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "Litton Reaves",
+      "time": "10:30am - 12:30pm",
+      "location2": "Goodwin",
+      "time2": "1:00pm - 2:30pm"
     }
   },
   "18": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location1": "No Lunch Today",
+      "time1": "",
+      "location2": "",
+      "time2": ""
     },
-    "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+    "periodicTable": {
+      "location1": "No Lunch Today",
+      "time1": "",
+      "location2": "",
+      "time2": ""
     }
   },
   "19": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "Hahn",
+      "time": "10:30am - 2:30pm"
     },
     "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "Litton Reaves",
+      "time": "10:30am - 12:30pm",
+      "location2": "Goodwin",
+      "time2": "1:00pm - 2:30pm"
     }
   },
   "20": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location1": "Litton Reaves",
+      "time1": "10:30am - 12:30pm",
+      "location2": "Goodwin",
+      "time2": "1:00pm - 2:30pm"
     },
-    "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+    "periodicTable": {
+      "location1": "Hahn",
+      "time1": "10:30am - 2:30pm",
+      "location2": "",
+      "time2": ""
     }
   },
   "21": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location1": "Drillfield",
+      "time1": "10:30am - 2:30pm",
+      "location2": "",
+      "time2": ""
     },
-    "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+    "periodicTable": {
+      "location1": "Drillfield",
+      "time1": "",
+      "location2": "10:30am - 2:30pm",
+      "time2": ""
     }
   },
+
+
+
+
   "22": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location1": "",
+      "time1": "",
+      "location2": "",
+      "time2": ""
     },
-    "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+    "periodicTable": {
+      "location1": "",
+      "time1": "",
+      "location2": "",
+      "time2": ""
     }
   },
   "23": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location1": "",
+      "time1": "",
+      "location2": "",
+      "time2": ""
     },
-    "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+    "periodicTable": {
+      "location1": "",
+      "time1": "",
+      "location2": "",
+      "time2": ""
     }
   },
+
+
+
+
   "24": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location1": "Litton Reaves",
+      "time1": "10:30am - 12:30pm",
+      "location2": "Goodwin",
+      "time2": "1:00pm - 2:30pm"
     },
-    "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+    "periodicTable": {
+      "location1": "Hahn",
+      "time1": "10:30am - 2:30pm",
+      "location2": "",
+      "time2": ""
     }
   },
   "25": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "Hahn",
+      "time": "10:30am - 2:30pm"
     },
     "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "Litton Reaves",
+      "time": "10:30am - 12:30pm",
+      "location2": "Goodwin",
+      "time2": "1:00pm - 2:30pm"
     }
   },
   "26": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location1": "Litton Reaves",
+      "time1": "10:30am - 12:30pm",
+      "location2": "Goodwin",
+      "time2": "1:00pm - 2:30pm"
     },
-    "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+    "periodicTable": {
+      "location1": "Hahn",
+      "time1": "10:30am - 2:30pm",
+      "location2": "",
+      "time2": ""
     }
   },
   "27": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "Hahn",
+      "time": "10:30am - 2:30pm"
     },
     "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "Litton Reaves",
+      "time": "10:30am - 12:30pm",
+      "location2": "Goodwin",
+      "time2": "1:00pm - 2:30pm"
     }
   },
   "28": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location1": "Drillfield",
+      "time1": "10:30am - 2:30pm",
+      "location2": "",
+      "time2": ""
     },
-    "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+    "periodicTable": {
+      "location1": "Drillfield",
+      "time1": "10:30am - 2:30pm",
+      "location2": "",
+      "time2": ""
     }
   },
+
+
+
+
   "29": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location1": "",
+      "time1": "",
+      "location2": "",
+      "time2": ""
     },
-    "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+    "periodicTable": {
+      "location1": "",
+      "time1": "",
+      "location2": "",
+      "time2": ""
     }
   },
   "30": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location1": "",
+      "time1": "",
+      "location2": "",
+      "time2": ""
     },
-    "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+    "periodicTable": {
+      "location1": "",
+      "time1": "",
+      "location2": "",
+      "time2": ""
     }
   },
+
+
+
+  
   "31": {
     "grillfield": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "Hahn",
+      "time": "10:30am - 2:30pm"
     },
     "periodictable": {
-      "location": "Drillfield",
-      "time": "10:00am - 2:00pm"
+      "location": "Litton Reaves",
+      "time": "10:30am - 12:30pm",
+      "location2": "Goodwin",
+      "time2": "1:00pm - 2:30pm"
     }
   }
 }
