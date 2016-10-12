@@ -1,0 +1,51 @@
+//OCTOBER
+[{
+  "6": {
+    "grillfield": {
+      "location1": "Litton Reaves",
+      "time1": "10:30am - 12:30pm",
+      "location2": "Goodwin",
+      "time2": "1:00pm - 2:30pm"
+    },
+    "periodicTable": {
+      "location1": "Hahn",
+      "time1": "10:30am - 2:30pm",
+      "location2": "",
+      "time2": ""
+    }
+  },
+  "7": {
+    "grillfield": {
+      "location": "Drillfield",
+      "time": "10:30am - 2:30pm"
+    },
+    "periodictable": {
+      "location": "Drillfield",
+      "time": "10:30am - 2:30pm"
+    }
+  },
+  "8": {
+    "grillfield": {
+      "location": "NA",
+      "time": "NA"
+    },
+    "periodictable": {
+      "location": "Science Festival",
+      "time": "10:30am - 2:30pm"
+    }
+  },
+  "9": {
+    "grillfield": {
+      "location1": "",
+      "time1": "",
+      "location2": "",
+      "time2": ""
+    },
+    "periodicTable": {
+      "location1": "",
+      "time1": "",
+      "location2": "",
+      "time2": ""
+    }
+  },
+}]
