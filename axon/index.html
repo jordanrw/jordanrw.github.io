@@ -3,7 +3,7 @@
 <head lang="en">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Axon Health Acuity 3.0</title>
+  <title>Axon Health Acuity 4.0</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -12,9 +12,9 @@
         $('#login-button').click(function(e) {  
           var inputvalue = $("#username").val();
           if (inputvalue == "executive") {
-            window.location.replace("./executive-dashboard.html");
+            window.location.replace("../axon/executive-dashboard.html");
           } else if (inputvalue == "nurse") {
-            window.location.replace("./nurse-dashboard.html");
+            window.location.replace("../axon/nurse-dashboard.html");
           } else {
             alert("Unknown username");
           }
