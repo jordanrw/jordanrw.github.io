@@ -10,11 +10,11 @@
   <script type="text/javascript">
       $(document).ready(function(){
         $('#login-button').click(function(e) {  
-          var inputvalue = $("#username").val();
+          var inputvalue = $("#username").val().toLowerCase();
           if (inputvalue == "executive") {
-            window.location.replace("../axon/executive-dashboard.html");
+            window.location.replace("./executive-dashboard.html");
           } else if (inputvalue == "nurse") {
-            window.location.replace("../axon/nurse-dashboard.html");
+            window.location.replace("./nurse-dashboard.html");
           } else {
             alert("Unknown username");
           }
