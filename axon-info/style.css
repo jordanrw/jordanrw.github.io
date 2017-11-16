@@ -1,0 +1,390 @@
+/* Body and Headers */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #333333;
+/*  line-height: 15px;*/
+  
+  width: 100%;
+  height: 100%;
+
+/*  display: flex;*/
+/*  flex-direction: column;*/
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #1F1E60;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #1F1E60;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  color: #808080;
+  margin-top: 0px;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+  max-width: 60%;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 4px;
+}
+
+i {
+  font-style: italic;
+  color: #808080;
+}
+
+.btn {
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 15px 30px;
+  letter-spacing: 1px;
+  
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-1 {
+  color: white;
+  background: #2FCDFD;
+}
+
+.btn-1:hover,
+.btn-1:active {
+  box-shadow: rgba(0,0,0,0.25) 0px 5px 15px;
+}
+
+section {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+section h1, h3 {
+  margin-left: 40px;
+}
+
+footer {
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  background-color: #F7F7F7;
+  color: #485465;
+  font-size: 11px;
+}
+
+/* Menu */
+#menu {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+#menu a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+  right: 0px;
+}
+
+#menu a:hover {
+  color: lightgray;
+}
+
+/* Hero */ 
+.hero {
+  width: 100%;
+  height: 80vh;
+/*  max-height: 100vw;*/
+  background: url(images/hero-image.png) center center;
+  background-size: 100vw;
+/*  position: relative;*/
+  
+  display: flex;
+  flex-direction: column;
+  
+  border: red 3px dashed;
+}
+
+.hero2 { 
+  background-color: red;
+  background:url(images/hero-image.png) center center;
+  background-size:cover;
+  width: 100%;
+  height: 70vh;
+  
+  display: flex;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0px 0px 30px rgba(0,0,0,0.45);
+}
+
+.title {
+  margin: auto;
+}
+
+.title img {
+  margin: auto;
+}
+
+/* What Does Axon Do */
+#what-does-axon-do {
+/*
+  background: white;
+  background: -webkit-linear-gradient(#EEE, white);
+  background: -o-linear-gradient(#EEE, white);
+  background: -moz-linear-gradient(#EEE, white);
+  background: linear-gradient(#EEE, white);
+*/
+}
+
+.grid-container {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.feature-box {
+  width: 400px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.feature-box img {
+  margin: auto;
+}
+
+/* Features */
+#features {
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+
+.feature-table {
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+
+td {
+  border-bottom: #808080 .25px dashed;
+}
+
+#schedule-button {
+  margin: auto;
+}
+
+@media (max-width: 922px) {
+  h1 {
+    
+  }
+  .feature-box {
+    width: 350px;
+  }
+  .feature-table {
+    margin-left: 40px;
+  }
+}
+
+
+
+/* Schedule Page*/
+.form-box {
+  margin-left: 10%;
+  margin-right: 10%;
+  max-width: 700px;
+  
+  height: 400px;
+}
+  
+.axon-box {
+  border-radius:10px;
+  background-color: white;
+  box-shadow:0px 0px 10px rgba(0,0,0,0.25);
+  border: 1px solid #D7D7D7;
+  padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Universal Page Elements */
+
+.axon-table {
+  border-radius:10px;
+  background-color: white;
+  box-shadow:0px 0px 10px rgba(0,0,0,0.25);
+  padding: 15px;
+  
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+
+
+
+/* Hamburger Icon */
+#nav-icon {
+  z-index: 10;
+  width: 45px;
+  height: 50px;
+  position: fixed;
+  margin-top: 18px;
+  margin-left: 30px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  background: clear;
+}
+
+#nav-icon span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+/*  background: #4A5365;*/
+  background: white;
+  border-radius: 3px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+/* Icon 4 */
+#nav-icon {
+}
+
+/* Hamburger */
+#nav-icon span:nth-child(1) {
+  top: 0px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#nav-icon span:nth-child(2) {
+  top: 13px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#nav-icon span:nth-child(3) {
+  top: 26px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+/* X */
+#nav-icon.open span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: -3px;
+  left: 8px;
+  
+  background: #FFFFFF;
+}
+
+#nav-icon.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+#nav-icon.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 30px;
+  left: 8px;
+  
+  background: #FFFFFF;
+}
+
+
+
+
+
+
+/* Selector */
+select {
+  background-color: rgba(255,255,255,1.0); 
+  border: .5px solid lightgray;
+  font-family: Open Sans;
+}
+
+/* Line */
+line {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+  padding: 0;
+}
