@@ -1,0 +1,136 @@
+/*
+@font-face {
+  font-family: MavenProLight-200;
+  src: url("./fonts/MavenProLight-200.otf") format("opentype");
+}
+
+@font-face {
+  font-family: MavenProLight-200;
+  src: url("./fonts/MavenProLight-200.otf") format("opentype");
+}
+*/
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  
+  /* Gradient Background */
+  background: blue; /* For browsers that do not support gradients */    
+  background-color: -webkit-linear-gradient(45deg, #363C48, #4A5364); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(45deg, #363C48, #4A5364); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(45deg, #363C48, #4A5364); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(45deg, #363C48, #4A5364); /* Standard syntax (must be last) */
+}
+
+input {
+  font-size: 12px !important;
+  font-family: 'Open Sans', sans-serif;
+  /* font-style: italic; */
+}
+
+body {
+  background-color: F2F2F2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Example 1 */
+.login-container {
+  max-width: 500px;
+  padding: 20px;
+  margin: 50px auto;
+  
+/*  border: white dashed 1px;*/
+}
+
+.login-row {
+  padding: 10px 0;
+  display: flex;
+}
+
+.login-row h1 {
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  flex: 1;
+  font: Lato;
+  font-size: 50px;
+}
+
+.login-row h2 {
+  color: white;
+  text-align: center;
+  flex: 1;
+  margin-top: -60px;
+  text-transform: uppercase;
+}
+
+.login-row input {
+  border-radius: 3px;
+  border-color: white;
+  
+  margin: auto;
+  font-size: 14px;
+  text-align: center;
+  max-width: 300px;
+  height: 25px;
+  flex: 1;
+}
+
+#login-button {
+  margin: auto;
+}
+
+/* Buttons */
+.btn {
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 10px 60px;
+  display: inline-block;
+  margin: 15px 30px;
+  letter-spacing: 1px;
+  outline: none;
+  border-radius: 3px;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-1 {
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-1a:hover,
+.btn-1a:active {
+  color: #363C48;
+  background: white;
+  box-shadow: 0px 0px 20px rgba(255,255,255,0.5);
+}
+
+.btn-2 {
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-2a:hover,
+.btn-2a:active {
+  color: #00B293;
+  background: white;
+}

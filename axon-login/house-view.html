@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>House View</title>
+  
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/house-view.css">
+  
+<!--  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>-->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  
+<!--
+  <script src="http://www.amcharts.com/lib/3/amcharts.js"></script>
+  <script src="http://www.amcharts.com/lib/3/serial.js"></script>
+-->
+  <script src="js/amcharts/amcharts.js"></script>
+  <script src="js/amcharts/serial.js"></script>
+
+  <script src="js/constants.js"></script>
+  <script src="js/menu.js"></script>
+  <script type="text/javascript" src="js/house-view.js"></script>
+  
+</head>
+  
+<body>
+  <!-- Menu & Title -->
+  <div class="drawer transform">
+    <div class="drawer-menu">
+      <div class="subhead">Patient</div>
+        <div class="link"><a href="house-view.html">House View</a></div>
+        <div class="link"><a href="icu-6.html">Unit View</a></div>
+      <div class="subhead" id="bottom-subhead">Staffing</div>
+        <div class="link"><a href="cn-request.html">CN Request</a></div>
+        <div class="link"><a href="day-glance.html">Day at a Glance</a></div>
+        <div class="link"><a href="week-glance.html">Week at a Glance</a></div>
+      <div class="subhead" id="bottom-subhead">Executive</div>
+        <div class="link"><a href="executive-dashboard.html">Executive Dashboard</a></div>
+      <line/>
+        <div class="link"><a href="index.html">Logout</a></div>
+      
+    </div> <!-- drawer-menu -->
+  </div> <!-- drawer transform -->
+  <div id="nav-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  
+  <div class="header">
+    <div class="hl">
+      <h2>House View</h2>
+    </div>
+  </div>
+  
+  <!-- Page Content -->
+  <div class="page-container">
+    <div class="top">
+        <h3>Acuity by Unit</h3>
+        <div id="chartdiv" class="axon-box"></div>
+    </div>
+    <div class="column-container">
+      <div class="column">
+        <h3>Alerts</h3>
+        <div class="total">Total: 7</div>
+        <table class="axon-table">
+          <thead>
+            <th><img src=images/alert.png width="30" height="30"></th>
+            <th class="cover-shadow">Unit</th>
+            <th>Room</th>
+          </thead>
+          <tr>
+            <td><img src=images/red-a.png width="18" height="18"></td>
+            <td>ICU 1</td>
+            <td>1111</td>
+          </tr>
+          <tr onclick="rowClick(this, 'pcu-8')">
+            <td><img src=images/red-a.png width="18" height="18"></td>
+            <td>PCU 8</td>
+            <td>8022</td>
+          </tr>
+          <tr>
+            <td><img src=images/yellow-a.png width="18" height="18">
+            <td>ICU 4</td>
+            <td>4123</td>
+          </tr>
+          <tr>
+            <td><img src=images/yellow-a.png width="18" height="18"></td>
+            <td>ICU 7</td>
+            <td>7103</td>
+          </tr>
+          <tr>
+            <td><img src=images/yellow-a.png width="18" height="18"></td>
+            <td>ICU 9</td>
+            <td>9112</td>
+          </tr>
+          <tr onclick="rowClick(this, 'pcu-8')">
+            <td><img src=images/yellow-a.png width="18" height="18"></td>
+            <td>PCU 8</td>
+            <td>8003</td>
+          </tr>
+          <tr>
+            <td><img src=images/yellow-a.png width="18" height="18"></td>
+            <td>MS 5</td>
+            <td>5027</td>
+          </tr>
+        </table>
+      </div>
+      <div class="column">
+        <h3>Mortality</h3>
+        <div class="total">Total: 13</div>
+        <table class="axon-table">
+          <thead>
+            <th><img src=images/mortality.png width="40" height="14"></th>
+            <th class="cover-shadow">Unit</th>
+            <th>Room</th>
+          </thead>
+          <tr>
+            <td><img src=images/red-m.png width="35" height="12"></td>
+            <td>ICU 5</td>
+            <td>5121</td>
+          </tr>
+          <tr onclick="rowClick(this, 'icu-6')">
+            <td><img src=images/red-m.png width="35" height="12"></td>
+            <td>ICU 6</td>
+            <td>6111</td>
+          </tr>
+          <tr onclick="rowClick(this, 'icu-6')">
+            <td><img src=images/red-m.png width="35" height="12"></td>
+            <td>ICU 7</td>
+            <td>7110</td>
+          </tr>
+          <tr>
+            <td><img src=images/red-m.png width="35" height="12"></td>
+            <td>PCU 3</td>
+            <td>3014</td>
+          </tr>
+          <tr>
+            <td><img src=images/red-m.png width="35" height="12"></td>
+            <td>PCU 4</td>
+            <td>4028</td>
+          </tr>
+          <tr>
+            <td><img src=images/red-m.png width="35" height="12">
+            <td>PCU 6</td>
+            <td>6227</td>
+          </tr>
+          <tr>
+            <td><img src=images/red-m.png width="35" height="12">
+            <td>PCU 14</td>
+            <td>14022</td>
+          </tr>
+          
+          <tr>
+            <td><img src=images/yellow-m.png width="35" height="12"></td>
+            <td>ICU 3</td>
+            <td>3102</td>
+          </tr>
+          <tr>
+            <td><img src=images/yellow-m.png width="35" height="12"></td>
+            <td>ICU 5</td>
+            <td>5101</td>
+          </tr>
+          <tr onclick="rowClick(this, 'icu-6')">
+            <td><img src=images/yellow-m.png width="35" height="12"></td>
+            <td>ICU 6</td>
+            <td>6107</td>
+          </tr>
+          <tr>
+            <td><img src=images/yellow-m.png width="35" height="12"></td>
+            <td>ICU 7</td>
+            <td>7102</td>
+          </tr>
+          <tr onclick="rowClick(this, 'pcu-8')">
+            <td><img src=images/yellow-m.png width="35" height="12"></td>
+            <td>PCU 8</td>
+            <td>8022</td>
+          </tr>
+          <tr>
+            <td><img src=images/yellow-m.png width="35" height="12"></td>
+            <td>PCU 14</td>
+            <td>14003</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
